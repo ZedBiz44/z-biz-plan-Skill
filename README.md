@@ -28,9 +28,17 @@ The skill must read the current Notion template and SOP before drafting or updat
 - `agents/openai.yaml` — discovery metadata for supported OpenAI environments.
 - `README.md` — repository purpose, boundaries, sources, and validation guidance.
 
-## Validation
+## Validation And Deployment
 
 Run the repository validation supplied by the current `z-ai-skill-developer` release. Also confirm that the frontmatter is valid, all linked governing sources open, the skill is discoverable, and a representative Brief can be routed into a useful Biz-Plan handoff without changing the Brief.
+
+Validate the repository before every release.
+
+Deploy only after repository validation passes and the representative pilot confirms the skill works in the target runtime.
+
+## Safety And Approval Boundaries
+
+Keep secrets and credentials out of the plan and repository. Stop for unresolved authority, budget, legal, compliance, external commitment, or source-of-truth questions, and do not alter the original Brief or publish an unverified plan.
 
 ## Status And Changes
 
