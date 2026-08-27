@@ -1,0 +1,7 @@
+interface:
+  display_name: "Z Biz Plan"
+  short_description: "Turn Z-Knowledge Briefs into action plans"
+  default_prompt: "Use $z-biz-plan to turn the related Z-Knowledge Brief into the smallest useful executable plan."
+
+policy:
+  allow_implicit_invocation: true
