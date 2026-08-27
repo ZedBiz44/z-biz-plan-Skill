@@ -1,6 +1,6 @@
 ---
 name: z-biz-plan
-description: "Turn an existing Z-Knowledge Brief and supporting evidence into a practical business, marketing, and action plan. Use for executable planning; use Brief or Research when the result is still mainly an overview or evidence package."
+description: "Turn a Z-Knowledge Brief and evidence into a practical business, marketing, and action plan. Use Brief or Research for overview or investigation work."
 ---
 
 # Z Biz Plan
