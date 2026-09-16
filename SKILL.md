@@ -35,18 +35,19 @@ Use their current versions. The template controls plan structure and the SOP con
 ## Preserve Subject Identity
 
 - The Biz-Plan belongs to the same subject and authoritative Z-Knowledge database as the related Brief unless an approved routing exception applies.
-- Carry forward the approved subject identity, Name-Key, and shared six-digit Z-Code from the Brief.
+- Carry forward the approved subject identity, Name-Key, Knowledge Family, Knowledge Lane, and six-digit Topic Identifier from the Brief. The Biz-Plan must receive its own complete allocator-issued Z-Code.
 - If the correct Brief, database, identity, or existing Biz-Plan cannot be confirmed, stop before creating a second source of truth and report what must be resolved.
 
 ## Hand Off Publishing
 
-Use `z-notion-knowledge-publish` for Notion creation or updates, property values, relations, Z-Code suffix selection, icons, and final verification.
+Use `z-notion-knowledge-publish` for Notion creation or updates, property values, relations, allocator-backed Z-Code allocation and confirmation, icons, and final verification.
 
 Provide that handoff with:
 
 - the related Brief and target database;
 - whether to create or update the Biz-Plan;
-- the approved Name-Key and shared six-digit Z-Code;
+- the approved Name-Key and shared family, lane, and Topic Identifier;
+- the requirement for the Biz-Plan's own complete allocator-issued Z-Code;
 - the completed plan content and work mode;
 - related records and sources to link;
 - unresolved assumptions, risks, or routing questions.
