@@ -5,7 +5,12 @@ description: "Turn a Z-Knowledge Brief and evidence into a practical business, m
 
 # Z Biz Plan
 
-Turn an approved Z-Knowledge Brief into the smallest useful plan for the current decision and work mode.
+Turn supplied evidence or an approved Z-Knowledge Brief into the smallest useful plan for the current decision and work mode.
+
+## Draft and governed-record modes
+For an ordinary planning request, produce a useful draft from the supplied evidence even when there is no existing Z-Knowledge Brief. Clearly separate assumptions and proposed figures from verified facts. Use a concise plan unless the decision requires a full one.
+For a governed Notion Biz-Plan, apply the Brief, subject identity, template and allocator rules below before publishing. A missing Brief or allocator holds that publication, not useful draft preparation. Brief and Research below name record types, not assumed installed skills.
+Use the native Notion connector to fetch templates and the publishing skill to write authorized records. Drafting a plan does not authorize implementation, Asana creation, spending or publication.
 
 ## Confirm This Is Planning Work
 
@@ -16,7 +21,7 @@ Turn an approved Z-Knowledge Brief into the smallest useful plan for the current
 
 ## Load The Governing Sources
 
-Before drafting or updating a plan, read:
+Before drafting or updating a governed Notion Biz-Plan, read:
 
 - [Biz-Plan Template](https://app.notion.com/p/3a2a3e33d58181b8ae02cef01f218b86)
 - [Biz-Plan Template SOP](https://app.notion.com/p/3a2a3e33d581810a8080dc4d30104419)
